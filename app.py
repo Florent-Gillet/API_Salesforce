@@ -33,5 +33,5 @@ def decode():
 
     return jsonify(produits)
 
-if __name__ == '__main__':
-    app.run(debug=True)  # Ajout de `debug=True` pour forcer le mode debug
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080)
