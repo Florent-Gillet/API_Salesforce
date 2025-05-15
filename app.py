@@ -7,7 +7,7 @@ def decode():
     data = request.get_json()
     code = data.get('code')
 
-    # Exemple fixe pour tester
+    # Réponse de test
     response = [
         {"product_name": "AQL-C+", "quantity": 1},
         {"product_name": "OPT-AQL-IN", "quantity": 2}
